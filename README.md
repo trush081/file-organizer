@@ -40,12 +40,12 @@ A Python script that organizes files in a specified directory based on their fil
 
 To run the script in one-time organization mode, specify the target directory:
 ```bash
-python organize_files.py --directory /path/to/your/directory
+python file-organizer.py /path/to/your/directory
 ```
 
 To run the script in watchdog mode (to monitor the specified directory):
 ```bash
-python organize_files.py --watch --directory /path/to/your/directory
+python file-organizer.py --watch /path/to/your/directory
 ```
 
 ## Dependencies
